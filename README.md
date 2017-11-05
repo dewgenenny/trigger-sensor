@@ -10,13 +10,14 @@ positional arguments:
   Host                  Home Assistant hostname
 
 optional arguments:
+
   -h, --help            show this help message and exit
-  --sensor-name SENSOR_NAME
-                        Name of binary sensor
-  --friendly-name FRIENDLY_NAME
-                        Friendly name of binary sensor
-  --api-password API_PASSWORD
-                        HA API Password
+
+  --sensor-name SENSOR_NAME - This is the internal name of the binary sensor to be created
+
+  --friendly-name FRIENDLY_NAME - This is the friendly / display name of the sensor
+
+  --api-password API_PASSWORD - This is your API password
 
 You can use this script within the Xeoma video surveillance software (http://felenasoft.com/xeoma/en/) to integrate motion events into Home Assistant (https://home-assistant.io/).
 
